@@ -27,7 +27,7 @@ spring:
         enabled: true
   datasource:
     username: root
-    password: 147258
+    password: xxxxxx
     url: jdbc:mysql://localhost:3306/fleaMarket?useSSL=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
   http:
@@ -36,8 +36,8 @@ spring:
   mail:
     host: smtp.qq.com #设置邮箱主机
     protocol: smtps
-    username: 2582085906@qq.com #配置用户名
-    password: wsmjyrjyucgfdjgi #配置开启STMP服务的授权码（上面获取到的授权码）
+    username: xxxxx@qq.com #配置用户名
+    password: xxxxxx #配置开启STMP服务的授权码（上面获取到的授权码）
     properties:
       mail:
         stmp:
